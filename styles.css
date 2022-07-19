@@ -169,3 +169,56 @@
     color: grey;
 }
 
+/* Styles for Footer  */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    
+}
+
+.footer-name p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.footer-hr{
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(50, 50, 50);
+    
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: rgb(251, 209, 155);
+    
+}
+
+.socials{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.socials p{
+    display: inline;
+    justify-content: center;
+    font-size: 28px;
+    color: orangered;
+}
