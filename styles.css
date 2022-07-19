@@ -55,7 +55,7 @@
 
 .section-1-image{
     position: absolute;
-    right: 0px;
+    right: 10px;
     bottom: 0px;
 }
 
@@ -76,7 +76,6 @@
     padding: 30px 15px 30px 15px;
     margin: 5px auto;
     border-radius: 8px;
-    border: 2px solid rgb(81, 0, 255);
     background-color: orangered;
     height: 80px;
 }
@@ -89,8 +88,7 @@
     border-radius: 5px;
     color: red;
     margin: 5px 0px;
-    font-size: 1em;
-        
+    font-size: 1em;        
 }
 
 .upcoming-match{
@@ -102,14 +100,72 @@
 }
 
 .section-2-right{
-    width: 70%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    padding: 30px 15px 30px 15px;
-    margin: 5px auto;
+    margin-left: 15px;
     border-radius: 8px;
-    border: 2px solid rgb(0, 255, 225);
-    background-color: orangered;
-    height: 800px;
+    height: 100%;   
 }
+
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightslategray;
+    border-radius: 12px;
+    height:fit-content;
+    margin: 0px 0px 10px 10px;
+
+    
+}
+
+.thumbnail-photo img{
+    width:100%;
+}
+
+.transfer-button{
+    text-decoration: none;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 5px 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: rgb(79, 79, 79);
+    margin: 5px 0px;
+    font-size: 0.75em;        
+}
+
+.thumbnail-button{
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.thumbnail-title{
+    padding-left: 10px;
+}
+
+.thumbnail-hybrid{
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.thumbnail-p{
+    font-size: 1.em;
+}
+
+.thumbnail-hybrid-text{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.thumbnail-time{
+    display: flex;
+    padding-right: 10px;
+}
+
+.thumbnail-time p{
+    padding-right: 8px;
+    color: grey;
+}
+
