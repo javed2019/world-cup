@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+
 /* section-1 styles */
 
 .section-1{
@@ -42,7 +44,6 @@
     color: red;
     margin: 5px 0px;
     font-size: 1em;
-    
 }
 
 .section-1-right{
@@ -167,18 +168,21 @@
 
 /* Styles for Footer  */
 
-footer{
+.footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: black;
     color: antiquewhite;
     padding: 40px;
-    position: absolute;
-    left: 0px;
+    width: 100%;
     bottom: 0px;
-    right: 0px;
-    
+    margin-bottom: 0px;
+    min-height: 250px;
+}
+
+body{
+    min-height: 0px;
 }
 
 .footer-name p{
@@ -195,6 +199,8 @@ footer{
     
 }
 
+/* Styles for Navbar in Footer  */
+
 .footer-nav{
     display: flex;
     justify-content: space-around;
@@ -206,6 +212,8 @@ footer{
     color: rgb(251, 209, 155);
     
 }
+
+/* Styles for Social Icon-Anchors in Footer  */
 
 .socials{
     display: inline;
@@ -223,6 +231,9 @@ footer{
     font-size: 28px;
     color: orangered;
 }
+
+/*  Styles for "Upcoming Match" Page:
+    (upcoming-match.html)  */
 
 .flag-thumbnail{
     display: flex;
@@ -265,6 +276,8 @@ footer{
     font-size: 0.75em;
     color: grey;
 }
+
+/* Styles for All Groups Page: No data available  */
 
 .under-construction-p{
     font-size: 30px;
