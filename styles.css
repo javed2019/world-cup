@@ -396,12 +396,17 @@ body{
         height: 100%;   
     }
 
+    .footer{
+        width: 80%;
+    }
+
     .footer-nav{
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         padding-top: 20px;
+        
     }
     .footer-nav a{
         padding: 10px 0;
@@ -497,6 +502,10 @@ body{
             justify-content: right;
             visibility: visible;
             padding: 20px;
+        }
+
+        .footer{
+            width: 90%;
         }
 
       .footer-nav{
